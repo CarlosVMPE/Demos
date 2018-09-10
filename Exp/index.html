@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exp</title>
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main>
+        <div class="main row">
+            <div class="dogFirst wow slideInLeft">
+                <div class="dog1">
+                    <h2 class="text-center">Dog 1</h2>
+                </div>
+                <div class="imgdog1">
+                    DOG 1
+                </div>
+                <div class="content1">
+                    <a class="close1">X</a>
+                    <h3>Contenido dog 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam consectetur necessitatibus
+                        sint perspiciatis deserunt? Autem ipsa natus molestias, aliquid dignissimos labore ducimus
+                        optio exercitationem doloribus ipsum, illo, totam obcaecati esse.</p>
+                </div>
+                <div class="img1"></div>
+            </div>
+
+            <div class="dogSec">
+                <div class="dogSec1 wow slideInDown">
+                    <div class="dog2">
+                        <h2 class="text-center">Dog 2</h2>
+                    </div>
+                    <div class="img2"></div>
+                </div>
+
+                <div class="dogSec2 wow slideInUp">
+                    <div class="dog3">
+                        <h2 class="text-center">Dog 3</h2>
+                    </div>
+                    <div class="img3"></div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script>
+        $(document).ready(function(){
+            $('.dog1').click(function(){
+                $('.content1').addClass('animated fadeInLeft');
+                $('.content1').css("display", "block");
+                setTimeout(() => {
+                    $('.content1').removeClass('animated fadeInLeft');
+                }, 1000);
+            });
+
+            $('.close1').click(function () {
+                $('.content1').addClass('animated fadeOutLeft');
+                
+                setTimeout(() => {
+                    $('.content1').css("display", "none");
+                    $('.content1').removeClass('animated fadeOutLeft');
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+
+</html>

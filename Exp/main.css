@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+main{
+    height: 100vh;
+    margin: 0; 
+}
+
+.main{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1{
+    margin: 5% 0;
+}
+
+.dogFirst{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.dog1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #3b5999;
+    overflow: hidden;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.dogSec{
+    width: 50%;
+    height: 100%;
+}
+
+.dogSec1{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.dogSec2{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.dog2{
+    width: 100%;
+    height: 100%;
+    background: #25D366;
+    transition: .4s all;
+}
+
+.dog3{
+    width: 100%;
+    height: 100%;
+    background: #e4405f;
+    transition: .4s all;
+}
+
+.dog1:hover,
+.dog2:hover,
+.dog3:hover{
+    opacity: 0;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: 
+    linear-gradient(
+      rgba(59, 89, 153, 0.5), 
+      rgba(59, 89, 153, 0.5)
+    ),
+    url('img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: 
+    linear-gradient(
+      rgba(37, 211, 102, 0.5), 
+      rgba(37, 211, 102, 0.5)
+    ),
+    url('img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: 
+    linear-gradient(
+      rgba(228, 64, 95, 0.5), 
+      rgba(228, 64, 95, 0.5)
+    ),
+    url('img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgdog1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.content1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #3b5999;
+    color: white;
+    padding: 5%;
+    display: none;
+}
+
+.close1{
+    position: absolute;
+    right: 5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .dogFirst, .dogSec{
+        width: 100%;
+    }
+}
