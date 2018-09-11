@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('img/BG.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.d1{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.d2{
+    margin-top: -700px;
+    margin-left: -150px;
+}
+
+.d3{
+    margin-top: -650px;
+}
+
+.d4{
+     margin-top: -1050px;
+}
+
+.d5{
+    margin-top: -600px;
+    margin-left: 100px;
+}
+
+.d6{
+    margin-top: 250px;
+    margin-left: 950px;
+}
