@@ -1,0 +1,23 @@
+Hard Disk Sentinel Professional v4.71.3 (April 7, 2016)
+
+What's New?
+
+LTO/tape drive, redesigned Areca RAID controller support.
+
+- added detection of LTO tape drives: detect and display health, temperature, cleaning / media status.
+  Tested with IBM Ultrium LTO5, Tandberg LTO5 tape drives
+- added support of HP Smart Array P440, B140i RAID controller: detect status of SATA / SAS hard disks, 
+  SSDs managed and configured into RAID array(s)
+- improved support of various HP RAID controllers (Smart Array 6400, 642)
+- fixed slower response and problems with Areca SATA RAID controllers
+- added support of SAS drive detection on Areca controllers: now  all SATA / SAS hard disks, SSDs should 
+  be detected and displayed managed by Areca SATA RAID controllers
+- added support of SMC LSI 2208 SAS RAID controller
+- added/improved support of single and RAID enclosures built with JMicron JMS56x USB 3.0 chipset
+- added support of Prolific PL3507 IDE-USB bridge
+- improved support of VIA, JMicron RAID controllers
+- improved power on time report of Fujitsu SCSI hard disks
+- improved support of Sandisk, Zheino and mSATA Kingston SSDs
+- improved XML report output with Portable version
+- show comment field in the Open status of offline disk(s) window to help identify drives
+- added "lifetime writes" to TXT / HTML / XML reports

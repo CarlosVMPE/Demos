@@ -1,0 +1,15 @@
+01-Install the trial setup (hdsentinel_pro_setup.exe)
+   Uncheck 'Launch Hard Disk Sentinel' before you exit the installation.
+
+02-Copy the content of [patched folder] 'HDSentinel.exe' and paste it to:
+   (Default Location: "C:\Program Files (x86)\Hard Disk Sentinel\") and replace the original file.
+
+03-Merge the 'License Key' file (double-click on it) or right-click the file then hit 'Merge'
+
+     License Key (for 32-bit).reg - for 32-bit (x86) OS
+     License Key (for 64-bit).reg - for 64-bit (x64) OS
+
+04-Done and Enjoy!
+
+(Pls, disable "automatic update every week" in configuration/update.)
+
